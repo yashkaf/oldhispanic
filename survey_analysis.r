@@ -20,6 +20,7 @@ runsims <- function(n=100,sims=10000000,ascores,aprobs) {
   return(results)
 }
 
+# Type of post
 probsa=c(.59,.3,.1,.01)
 probsb=c(.48,.38,.13,.01)
 probsc=c(.28,.55,.15,.02)
@@ -30,7 +31,7 @@ scores=c(3,1,0,-1)
 allprobs=list(probsa,probsb,probsc,probsd,probse)
 allscores=c(173,132,176)
 
+# Length of post
 longscores=c(2,1,0)
-gapscores=c(1,0,-1)
 longprobsa=c(.388,.474,.138)
 longprobsb=c(.263,.474,.263)
